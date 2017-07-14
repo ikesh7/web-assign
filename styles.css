@@ -1,0 +1,69 @@
+
+body {
+  	
+	background-size:1500px 600px;
+	background-repeat:no-repeat;
+	padding-bottom: 300px; 
+}
+table {
+    font-family: arial, sans-serif;<!--this is the css font of table used in html-->
+    border-collapse: collapse;
+    width: 100%;<!--this is the width used in html-->
+}
+
+td, th {
+    border: 1px solid black;<!--this is the boader size and color used in html-->
+    text-align: left;<!--this is  used to set the text ot left in html-->
+    padding: 8px;
+}
+
+}
+
+
+
+ footer {
+    padding: 1em;
+    color: white;
+    background-color: blue;
+    clear: left;
+    text-align: center;
+}
+
+
+
+   
+
+
+article {
+    margin-left: 170px;
+    border-left: px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+li {
+    float: left;
+ 
+}
+
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: black;
+}

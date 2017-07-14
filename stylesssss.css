@@ -1,0 +1,55 @@
+
+body {
+  	background-color=black;
+	background-size:1500px 600px;
+	background-repeat:no-repeat;
+	padding-bottom: 300px; 
+}
+
+
+ footer {
+    padding: 1em;
+    color: white;
+    background-color: blue;
+    clear: left;
+    text-align: center;
+}
+
+
+
+article {
+    margin-left: 170px;
+    border-left: px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+li {
+    float: left;
+ 
+}
+
+
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+}
+section img:hover{
+transform: rotate(180deg);
+}

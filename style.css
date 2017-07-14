@@ -1,0 +1,61 @@
+body {
+  	font-family: "Times New Roman", Times, serif;<!--this is the font used in html-->
+	font-size: 0.875em;<!--this is the font size used in html-->
+	color:black size:5;<!--this is the color used in html-->
+	background-size:1500px 600px;<!--this is the background size used in html-->
+	background-repeat:no-repeat;
+	padding-bottom: 300px; 
+}
+
+
+
+
+ footer {
+    padding: 1em;<!--this is the used to give spaces-->
+    color: white;<!--this is the color used in html-->
+    background-color: blue;<!--this is the background color used in html-->
+    clear: left;
+    text-align: center;
+}
+
+
+
+article {
+    margin-left: 170px;
+    border-left: px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+li {
+    float: left;
+ 
+}
+
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: black;
+}
+
+
+section img:hover{
+transform: rotate(180deg);
+}
+
